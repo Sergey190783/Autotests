@@ -1,0 +1,45 @@
+Thumbs.db*
+.DS_Store*
+HELP.md
+.gradle
+строить/
+
+### СТС ###
+.apt_generated
+.путь к классу
+.factorypath
+.проект
+.настройки
+Весенние бобы
+.sts4-кэш
+
+### ИДЕЯ IntelliJ ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/частный/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Против кода ###
+.vscode/
+
+### Файлы пакетов ###
+*.баночка
+*.война
+*.нар
+*.ухо
+*.застежка-молния
+*.tar.gz
+*.rar
+
+###
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
