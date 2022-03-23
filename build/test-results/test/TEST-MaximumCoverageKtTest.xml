@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MaximumCoverageKtTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-03-23T13:13:11" hostname="Air-Sergej" time="0.151">
+  <properties/>
+  <testcase name="masterCard()" classname="MaximumCoverageKtTest" time="0.113"/>
+  <testcase name="moneyPerDayExceeded()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="maxMoneyPerMonthExceeded()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="masterCardNoAction()" classname="MaximumCoverageKtTest" time="0.001"/>
+  <testcase name="negativeMoney()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="maestroNoAction()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="mir()" classname="MaximumCoverageKtTest" time="0.001"/>
+  <testcase name="visa()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="vkPay()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="mirMinCommission()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="cardNotSupported()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="maestro()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="visaMinCommission()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
