@@ -124,7 +124,7 @@ internal class MaximumCoverageKtTest {
         val cardType = "Мир"
         val result = calculateCommission(prevSum, curSum, cardType)
 
-        assertEquals(10000, result)
+        assertEquals(7500, result)
     }
 
     @Test
