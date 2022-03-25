@@ -14,7 +14,7 @@ const val VISA_COMMISION = 0.0075
 
 fun calculateCommission(prevSum: Long, curSum: Long, cardType: String = "VKPay", action: Boolean = false): Long {
 
-    if (curSum < 0)
+    if (curSum > 0)
         return STATUS_CODE_NEGATIVE_MONEY
 
     if (curSum > MAX_SUM_PER_DAY)

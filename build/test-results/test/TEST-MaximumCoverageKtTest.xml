@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MaximumCoverageKtTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-03-25T09:11:30" hostname="Air-Sergej" time="0.266">
+<testsuite name="MaximumCoverageKtTest" tests="13" skipped="0" failures="1" errors="0" timestamp="2022-03-25T17:20:21" hostname="MacBook-Air-Sergej.local" time="0.527">
   <properties/>
-  <testcase name="mir()" classname="MaximumCoverageKtTest" time="0.266">
+  <testcase name="masterCard()" classname="MaximumCoverageKtTest" time="0.357"/>
+  <testcase name="moneyPerDayExceeded()" classname="MaximumCoverageKtTest" time="0.01"/>
+  <testcase name="maxMoneyPerMonthExceeded()" classname="MaximumCoverageKtTest" time="0.004"/>
+  <testcase name="masterCardNoAction()" classname="MaximumCoverageKtTest" time="0.004"/>
+  <testcase name="negativeMoney()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="maestroNoAction()" classname="MaximumCoverageKtTest" time="0.003"/>
+  <testcase name="mir()" classname="MaximumCoverageKtTest" time="0.051">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;10000&gt; but was: &lt;7500&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;10000&gt; but was: &lt;7500&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -101,6 +107,12 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
+  <testcase name="visa()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="vkPay()" classname="MaximumCoverageKtTest" time="0.001"/>
+  <testcase name="mirMinCommission()" classname="MaximumCoverageKtTest" time="0.002"/>
+  <testcase name="cardNotSupported()" classname="MaximumCoverageKtTest" time="0.006"/>
+  <testcase name="maestro()" classname="MaximumCoverageKtTest" time="0.009"/>
+  <testcase name="visaMinCommission()" classname="MaximumCoverageKtTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
